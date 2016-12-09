@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#212121"
+    android:layout_height="156dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#AB47BC"
+        android:gravity="center_vertical"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Thông báo"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:layout_marginLeft="16dp"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Bạn thực sự muốn đổi câu hỏi ?"
+        android:id="@+id/txt_question_dialog"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:layout_centerInParent="true"
+        android:fontFamily="serif"
+        android:layout_marginLeft="16dp"
+        android:textSize="14sp"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="140dp"
+            android:text="Không"
+            android:id="@+id/btn_no"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:background="@drawable/custom_button"
+            android:layout_height="36dp" />
+        <Button
+            android:layout_width="140dp"
+            android:text="Có"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/btn_yes"
+            android:textAllCaps="false"
+            android:fontFamily="serif"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/custom_button"
+            android:layout_height="36dp" />
+    </LinearLayout>
+
+</RelativeLayout>
